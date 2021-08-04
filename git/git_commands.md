@@ -12,6 +12,7 @@
 10. [create-a-tag](#create-a-tag)
 11. [cherry-pick-usage](#cherry-pick-usage)
 12. [delete-commit](#delete-commit)
+13. [merge develop to master](#merge-branch-develop-to-master-on-gitbhub)
 
 
 # create-new-repository
@@ -161,6 +162,15 @@ rename the default branch main, to match what github expects:
 - substitute pick with drop, then ESC->:wq
 
 - git log (check whether you have deleted the commit)
+
+
+# merge-branch-develop-to-master-on-gitbhub
+
+- find the branches on home page
+
+- click branches, while bechind the branch there is a 'New pull request' click here
+
+- you could choose which two branches you want to merge
 
 
 
