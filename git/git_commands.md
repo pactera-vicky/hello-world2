@@ -211,13 +211,13 @@ if you want to merge specific branch to master branch
   
    remote: Support for password authentication was removed on August 13, 2021. Please use a personal access token instead.
    remote: Please see https://github.blog/2020-12-15-token-authentication-requirements-for-git-operations/ for more information.
-   fatal: unable to access 'https://github.com/<user name>/<repo name>/': The requested URL returned error: 403
+   fatal: unable to access 'https://github.com/<user-name>/<repo-name>/': The requested URL returned error: 403
   
 - solution
 
   git remote remove origin(remove your current repository)
 
-  git remote add origin git remote add origin https://<personal access token>@github.com/<user name>/<repo name>.git
+  git remote add origin git remote add origin https://<personal-access-token>@github.com/<user-name>/<repo-name>.git
 
 
 
