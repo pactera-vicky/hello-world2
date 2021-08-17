@@ -14,6 +14,7 @@
 12. [delete-commit](#delete-commit)
 13. [merge develop to master](#merge-branch-develop-to-master-on-gitbhub)
 14. [git bug solving](#git-bug-solving)
+15. [git log](#git-log-usage)
 
 
 # create-new-repository
@@ -220,7 +221,14 @@ if you want to merge specific branch to master branch
   git remote add origin git remote add origin https://<personal-access-token>@github.com/<user-name>/<repo-name>.git
 
 
+# git-log-usage
+- git log
 
+  `$ git log`(check the commit history)
+
+  `$ git log --pretty=oneline`(when there are lots of commit, you could use this command to check all the logs by one line)
+
+  `$ git log -q`
 
 
 
